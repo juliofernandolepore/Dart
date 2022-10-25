@@ -10,6 +10,9 @@ class Persona {
   Persona(argNom, int argEdad) {
     this.nombre = argNom;
     this.edad = argEdad;
+
+    /*otra forma de declarar el contructor seria la siguiente:
+    Persona(this.argNom, this.argEdad)  y nada mas sin agregar el cuerpo{} */
   }
   void mostrarDatos() {
     print(nombre);
