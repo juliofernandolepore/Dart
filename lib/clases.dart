@@ -21,6 +21,11 @@ class Persona {
 }
 
 void main() {
+  var persona4 = Persona("daniela", 35);
+
+  print(persona4.nombre);
+  print(persona4.edad);
+
   var persona1 = Persona("carlos", 60);
   print(persona1.nombre);
   print(persona1.edad);
